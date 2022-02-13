@@ -1,88 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Table Cheatsheet</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
+<html lang="en">
+<head>
+    <title>Stephanie Lee's Portfolio Page</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Love+Light&family=Raleway:ital,wght@0,100;0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Sacramento&display=swap" rel="stylesheet">
+    
+</head>
 
-    <body>
-        <header>
-            <h1>HTML Table Cheatsheet</h1>
-        </header>
-        <main>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tag</th>
-                        <th>Name</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="tag">&lt;table&gt;</td>
-                        <td>table</td>
-                        <td>Wrapper element for all HTML tables</td>
-                    </tr>
-                    <tr>
-                        <td class="tag">&lt;thead&gt;</td>
-                        <td>table head</td>
-                        <td>Set of rows defining column headers</td>
-                    </tr>
-                    <tr>
-                        <td class="tag">&lt;tr&gt;</td>
-                        <td>table row element</td>
-                        <td>Adds rows to a table before adding table data and headings</td>
-                    </tr>
-                    <tr>
-                        <td class="tag">&lt;th&gt;</td>
-                        <td>table heading element</td>
-                        <td>Adds titles to rows and columns of a table and must be enclosed in a table row element</td>
-                    </tr>
-                    <tr>
-                        <td class="tag">&lt;tbody&gt;</td>
-                        <td>table body element</td>
-                        <td>Semantic element that contains all table data other than table heading and table footer content</td>
-                    </tr>
-                    <tr>
-                    <td class="tag">&lt;td&gt;</td>
-                    <td>table data element</td>
-                    <td>Adds a cell of data to a table</td>
-                    </tr>
-                    <tr>
-                        <td class="tag">&lt;tfoot&gt;</td>
-                        <td>table foot element</td>
-                        <td>Set of rows defining a footer in a table</td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Attribute</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="tag">colspan</td>
-                        <td>Indicates how many columns that a particular cell should span within a table</td>
-                    </tr>
-                    <tr>
-                        <td class="tag">rowspan</td>
-                        <td>Indicates how many rows a particular cell should span within a table</td>
-                    </tr>
-                </tbody>
-            </table>
-        </main>
-        <footer>
-            <h5>Project completed by Stephanie Lee, 12/10/2021</h5>
-        </footer>
+<body>
+<header>
+    <h1>Stephanie Lee, Web Designer</h1>
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<section class="aboutme">
+    <h2>About Me</h2>
+    <p>Hello!  I'm Stephanie, a freelance Web Developer currently based just outside of Paris in France.  </p>
+    <a id="aboutme"><img src="StephanieLeePhoto.jpg" alt="Stephanie Lee's photo"></a>
+</section>
 
+<section class="projects">
+    <a id="projects"></a><h2>Projects</h2><a id="projects"></a>
+    <div id="photos">
+        <figure>
+            <a href="teacozy.html"><img src="TeaCozy.png" alt="Tea Cozy Sample"></a>
+            <figcaption><a href="teacozy.html">Tea Cozy Website</a></figcaption>
+        </figure>
+        <figure>
+            <a href="travelblog.html"><img src="Jeparlefranglais.png" alt="Travel Blog Sample"></a>
+            <figcaption><a href="travelblog.html">Jeparlefranglais Travel Blog</a></figcaption>
+        </figure>
+    </div>
+</section>
 
-    </body>
+<section class="skills">
+    <h2>Skills</h2><a id="skills"></a>
+    <ul>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+    </ul>
+</section>
 
+<section class="contactme">
+    <h2>Contact Me</h2><a id="contactme"></a>
+    <h4>Contact me for more details.  I would love to hear from you!</h4>
+    <ul>
+        <li>Email: leesw.sf@gmail.com</li>
+        <li><a href="https://www.linkedin.com/in/leeswsf/"> LinkedIn: leeswsf</a></li>
+        <li><a href="https://github.com/jeparlefranglais">GitHub: jeparlefranglais</a></li>
+        <li><a href="https://www.instagram.com/jeparlefranglais">Instagram: jeparlefranglais</a></li>
+    </ul>
+</section>
+</main>
 
+<footer>
+    <h6>Copyright Stephanie Lee 2022</h6>
+</footer>
+</body>
+<script src="script.js"></script>
 
 </html>
